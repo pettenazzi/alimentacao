@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+  }
+  
+  header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  header h1 {
+      font-size: 2em;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      text-align: center;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin-right: 15px;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      font-size: 1.2em;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+  }
+  
+  nav ul li a:hover {
+      background-color: #45a049;
+  }
+  
+  main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .galeria-item img {
+    width: 100px;
+    height: 50px; /* Ajuste este valor conforme necessário */
+    object-fit: cover; /* Garante que a imagem seja cortada para caber no espaço definido */
+    border-bottom: 1px solid #ddd; /* Adiciona um divisor entre a imagem e o conteúdo */
+}
+
+  
+  #alimentos {
+      background-image: url('imagens/alimentos.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 20px;
+      color: cyan;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #roupas {
+      background-image: url('imagens/roupas.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #higiene {
+      background-image: url('imagens/higiene.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #outros {
+      background-image: url('imagens/outros.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      margin-top: 46px;
+  }
+  
+  footer p {
+      font-size: 0.9em;
+  }
+  ul{
+    list-style: none;
+  }
